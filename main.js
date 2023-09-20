@@ -31,3 +31,8 @@ tecla.onkeydown = function (evento) {
   }
 
 }
+tecla.onkeyup = function () {
+  tecla.classList.remove('ativa');
+    }
+
+  }
